@@ -1,0 +1,53 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "~3.0.0",
+    "@expo/vector-icons": "^10.0.1",
+    "axios": "^0.19.0",
+    "expo": "^33.0.0",
+    "expo-asset": "^5.0.0",
+    "expo-asset-utils": "^1.1.1",
+    "expo-constants": "^5.0.0",
+    "expo-facebook": "^5.0.1",
+    "expo-file-system": "^5.0.1",
+    "expo-font": "^5.0.0",
+    "expo-google-sign-in": "^5.0.1",
+    "expo-graphics": "^1.1.0",
+    "expo-location": "^5.0.1",
+    "expo-permissions": "^5.0.1",
+    "expo-task-manager": "^5.0.1",
+    "expo-three": "^3.0.0-alpha.8",
+    "expo-web-browser": "^5.0.0",
+    "firebase": "^6.2.0",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-charts-wrapper": "^0.5.5",
+    "react-native-gl-model-view": "^1.4.0",
+    "react-native-modal-selector": "^1.0.3",
+    "react-native-pure-chart": "0.0.24",
+    "react-native-sideswipe": "^1.5.0",
+    "react-native-web": "^0.11.4",
+    "react-navigation": "^3.11.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.0",
+    "jest-expo": "^33.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "arvert",
+    "slug": "ARVert",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "infoPlist": {
+        "UIBackgroundModes": ["location"]
+      }
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "notification": {"icon": "./assets/images/icon.png"},
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/images/*"
+    ],
+    "packagerOpts": {
+      "assetExts": [
+        "dae",
+        "obj",
+        "mtl"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}

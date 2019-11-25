@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "outDir": "lib",
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "noStrictGenericChecks": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "lib": [
+      "dom",
+      "es2016"
+    ]
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
